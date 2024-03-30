@@ -1,3 +1,8 @@
+menampilkan project view
+![image](https://github.com/mashum22/pemweb2_pertemuan5/assets/116756625/68f4e521-0888-4530-8f44-c957d6b5c8bc)
+
+![image](https://github.com/mashum22/pemweb2_pertemuan5/assets/116756625/0a212878-0f55-46c3-97f0-3c2e20f5849c)
+
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
