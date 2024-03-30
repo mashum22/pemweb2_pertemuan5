@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?= $title; ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?= base_url('css/style.css') ?>">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -15,7 +16,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="#" href="/">Beranda</a>
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    <a class="nav-link" aria-curent="#" href="/books/index">Buku</a>
                     <a class="nav-link" aria-current="#" href="/pages/about">Tentang</a>
                     <a class="nav-link" aria-current="#" href="/pages/contact">Hubungi kami</a>
                 </div>
