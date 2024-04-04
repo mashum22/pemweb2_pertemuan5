@@ -10,3 +10,12 @@ class BooksModel extends Model
     protected $primaryKey = 'id';
     protected $useTimestamps = 'true';
 }
+
+public function getbuku ( $slug = false)
+{
+    if ($slug === false) {
+        return $this->findAll();
+    }
+
+    return $this->where(['$slug' => $slug])->first();
+}

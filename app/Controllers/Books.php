@@ -17,7 +17,19 @@ class Books extends BaseController
         $buku = $this->bukuModel->findAll();
         $data = [
             'title' => 'Daftar Buku',
-            'buku' => $buku
+            'buku' => $this->bukuModel->getbuku()
+        ];
+
+        //$bukuModel = new \App\Models\BooksModel();
+
+        return view('books/index', $data);
+    }
+
+    public function detail($slug)
+    {
+        $data = [
+            'title' => 'Detail Buku',
+            'buku' => $this->bukuModel->getbuku($slug)
         ];
 
         //$bukuModel = new \App\Models\BooksModel();
